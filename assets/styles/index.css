@@ -1,0 +1,70 @@
+@import "../main.css";
+
+.principal{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-main);
+    display: flex;
+    align-items: center;
+}
+
+.modo-login .toLogin { display: none; }
+.modo-register .toRegister { display: none; }
+
+.containerDiv{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.containerDiv img{
+    width: 100%;
+}
+
+#formularioPrincipal{
+    background-color: var(--bg-card);
+    width: 100%;
+    height: auto;
+    padding: 10%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px var(--bg-hover);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#formularioPrincipal label{
+    color: var(--accent-primary);
+}
+
+#formularioPrincipal input{
+    height: 30px;
+    border: none;
+    border-bottom: solid 2px var(--accent-primary);
+    border-radius: 5px 5px 0px 0px;
+}
+
+#formularioPrincipal button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-image: linear-gradient(to right, var(--accent-secondary), var(--accent-primary));
+    border-radius: 10px;
+    color: white;
+}
+
+#formularioPrincipal p{
+    text-align: center;
+    color: white;
+}
+
+#formularioPrincipal p span{
+    color: var(--accent-secondary);
+}

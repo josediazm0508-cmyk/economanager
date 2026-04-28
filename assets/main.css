@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  /* Fondos y Superficies (Punto medio, no negro puro) */
+  --bg-main: #1e293b;       /* Fondo general de la aplicación */
+  --bg-card: #334155;       /* Tarjetas, modales y filas de tabla */
+  --bg-hover: #475569;     /* Efecto hover en botones o filas */
+
+  /* Colores de Acento (Suaves pero visibles) */
+  --accent-primary: #818cf8; /* Lavanda para botones principales */
+  --accent-secondary: #22d3ee; /* Cian para info o enlaces */
+
+  /* Estados Semánticos (Desaturados para modo oscuro) */
+  --status-success: #4ade80; /* Ventas completadas / Ingresos */
+  --status-warning: #fbbf24; /* Stock bajo / Pendientes */
+  --status-danger: #f87171;  /* Cancelaciones / Errores */
+
+  /* Tipografía y Bordes */
+  --text-main: #f8fafc;      /* Texto principal (casi blanco) */
+  --text-muted: #94a3b8;     /* Texto secundario o leyendas */
+  --border-color: #475569;   /* Divisores y bordes de inputs */
+}
